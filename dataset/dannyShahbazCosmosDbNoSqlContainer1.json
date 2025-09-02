@@ -1,0 +1,16 @@
+{
+	"name": "dannyShahbazCosmosDbNoSqlContainer1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dannyShahbazCosmosDbNoSql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "weather_raw"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "dannyshahbaz",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dshz_weatherdata_api_http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "gridpoints/OKX/36,36/forecast/hourly"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
